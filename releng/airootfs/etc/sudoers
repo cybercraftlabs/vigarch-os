@@ -1,0 +1,7 @@
+root ALL=(ALL:ALL) ALL
+
+## Uncomment to allow members of group wheel to execute any command
+%wheel ALL=(ALL:ALL) ALL
+
+## Read drop-in files from /etc/sudoers.d
+@includedir /etc/sudoers.d
