@@ -130,6 +130,8 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+
+# Custom Packages
 xorg
 firefox
 i3-wm
@@ -141,3 +143,8 @@ picom
 feh
 pulseaudio
 lxappearance
+brightnessctl
+neofetch
+pcmanfm
+neovim
+yay
