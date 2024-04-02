@@ -59,7 +59,6 @@ livecd-sounds
 lsscsi
 lvm2
 ly
-lynx
 man-db
 man-pages
 mc
@@ -108,7 +107,6 @@ sof-firmware
 squashfs-tools
 sudo
 syslinux
-systemd-resolvconf
 tcpdump
 terminus-font
 testdisk
@@ -148,3 +146,4 @@ neofetch
 pcmanfm
 neovim
 yay
+networkmanager
