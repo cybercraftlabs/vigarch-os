@@ -2,5 +2,5 @@
 
 killall polybar
 
-polybar primary-top | polybar external-top
+polybar hardware-bottom | polybar virtual-bottom
 
