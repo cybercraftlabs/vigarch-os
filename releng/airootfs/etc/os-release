@@ -1,0 +1,11 @@
+NAME="Vigilante Arch"
+PRETTY_NAME="Vigilante Arch"
+ID=vigarch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://vigarch.thehackersbrain.online/"
+DOCUMENTATION_URL="https://vigarch.thehackersbrain.online/wiki"
+SUPPORT_URL="https://support.thehackersbrain.online/"
+BUG_REPORT_URL="https://vigarch.thehackersbrain.online/issues"
+PRIVACY_POLICY_URL="https://vigarch.thehackersbrain.online/wiki/privacy-policy/"
+LOGO=archlinux-logo
