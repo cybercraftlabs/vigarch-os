@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+TOOLNAME=$(basename "$0")
+
+main() {
+    sudo swapon $1
+    sudo mount -o remount,size=$2 /run/archiso/cowspace
+    echo "RAMfs size extended to $2B"
+}
+
+help() {
+  echo "Usage: $TOOLNAME <swap-partition> <ext-size>[M/G]" >&2
+  echo -e "\tExample: $TOOLNAME /dev/sda3 10G"
+  exit 1
+}
+
+
+if [[ "$#" -eq 2 ]]; then
+  main $1 $2
+else
+  help
+fi

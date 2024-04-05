@@ -16,7 +16,6 @@ pacman_conf="pacman.conf"
 airootfs_image_type="squashfs"
 airootfs_image_tool_options=('-comp' 'xz' '-Xbcj' 'x86' '-b' '1M' '-Xdict-size' '1M')
 file_permissions=(
-  # ["/etc/passwd"]="0:0:400"
   ["/etc/shadow"]="0:0:400"
   ["/etc/group"]="0:0:400"
   ["/etc/gshadow"]="0:0:400"
@@ -27,6 +26,7 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
+  ["/usr/local/bin/extfs"]="0:0:755"
 
   # Custom scripts
   ["/home/elliot/.config/scripts/rofi/common_directories.sh"]="0:0:755"
