@@ -118,7 +118,6 @@ usb_modeswitch
 usbmuxd
 usbutils
 vim
-virtualbox-guest-utils-nox
 vpnc
 wezterm-terminfo
 wireless-regdb
@@ -153,3 +152,6 @@ torbrowser-launcher
 nyx
 xclip
 flameshot
+sublime-text-4
+virtualbox-guest-utils
+virtualbox-guest-iso
