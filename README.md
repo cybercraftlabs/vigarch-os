@@ -98,7 +98,7 @@ By following these steps, you can effectively leverage TOR for specific tasks wh
 
 ## Screenshots
 
-![Main Desktop](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/1st.png)
-![Terminal](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/4th.png)
-![Tools](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/3rd.png)
-![Tor](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/2nd.png)
+![Main Desktop](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/screenshots/1st.png)
+![Terminal](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/screenshots/4th.png)
+![Tools](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/screenshots/3rd.png)
+![Tor](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/screenshots/2nd.png)
