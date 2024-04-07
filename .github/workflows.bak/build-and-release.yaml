@@ -1,0 +1,41 @@
+name: Build and Upload ISO
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: archlinux
+      options: --privileged
+    using: 'composite'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setting up Environment
+        run: pacman-key --init
+        shell: bash
+
+      - run: pacman -Sy --noconfirm archlinux-keyring
+        shell: bash
+
+      - name: Install archiso
+        run: pacman -Sy --noconfirm archiso arch-install-scripts awk dosfstools e2fsprogs erofs-utils findutils grub gzip libarchive libisoburn mtools openssl pacman sed squashfs-tools python-docutils
+        shell: bash
+
+      - name: Build ISO
+        run: mkarchiso -v -w output -o output releng
+        shell: bash
+
+      - name: File available
+        run: ls -al output
+        shell: bash
+
+      - name: Upload ISO
+        uses: actions/upload-artifact@v4
+        with:
+          name: vigarch-latest-x86_64.iso
+          path: output/

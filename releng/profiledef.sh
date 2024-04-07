@@ -2,10 +2,11 @@
 # shellcheck disable=SC2034
 
 iso_name="vigarch"
-iso_label="ARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="Vigilante Arch <https://vigarch.thehackersbrain.online>"
+iso_label="VIGARCH_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_publisher="Vigilante Arch <https://vigarch.cybercraftlabs.site>"
 iso_application="Vigilante Arch Live/Rescue/Hacking System"
-iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
+# iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
+iso_version="latest"
 install_dir="arch"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito'
