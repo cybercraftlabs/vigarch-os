@@ -17,7 +17,7 @@
 While alternatives like Tails OS prioritize security and anonymity, they often lack the comprehensive suite of tools and tailored environment desired by hackers and enthusiasts. Similarly, live systems such as Kali Linux and BlackArch offer robust toolsets but may lack the anonymity features integral to Vigilante Arch. Moreover, they tend to be more bloated, compromising performance and efficiency.
 
 ## Installation and Setup
-[Here]() is the wiki, for step by step setup guide and other informations.
+[Here](https://github.com/cybercraftlabs/vigarch-os/wiki) is the wiki, for step by step setup guide and other informations.
 
 The installation process is simple enough, a straight-forward process.
 - Download the ISO [here](https://vigarch.cybercraftlabs.site/)
