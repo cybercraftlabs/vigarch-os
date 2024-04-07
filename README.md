@@ -18,7 +18,7 @@ While alternatives like Tails OS prioritize security and anonymity, they often l
 
 ## Screenshots
 
-![1st](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/1st.png)
-![1st](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/2nd.png)
-![1st](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/3rd.png)
-![1st](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/4th.png)
+![Main Desktop](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/1st.png)
+![Terminal](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/4th.png)
+![Tools](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/3rd.png)
+![Tor](https://raw.githubusercontent.com/cybercraftlabs/vigarch-os/main/2nd.png)
