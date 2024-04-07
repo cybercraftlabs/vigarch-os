@@ -20,7 +20,7 @@ While alternatives like Tails OS prioritize security and anonymity, they often l
 [Here](https://github.com/cybercraftlabs/vigarch-os/wiki) is the wiki, for step by step setup guide and other pieces of information.
 
 The installation process is simple enough, a straightforward process.
-- Download the ISO [here](https://vigarch.cybercraftlabs.site/)
+- Download the ISO [here](https://github.com/cybercraftlabs/vigarch-os/releases/download/latest/vigarch-latest-x86_64.iso)
 - Write the ISO on a USB Drive, Use `dd` for Linux and `Etcher` for Windows.
 - Plug the USB and boot the live system.
 
