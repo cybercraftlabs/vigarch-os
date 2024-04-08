@@ -1,0 +1,12 @@
+[Unit]
+Description=Clear Swap Space
+DefaultDependencies=no
+Before=shutdown.target
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/swapoff -a
+RemainAfterExit=yes
+
+[Install]
+WantedBy=halt.target reboot.target
