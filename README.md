@@ -106,6 +106,6 @@ By following these steps, you can effectively leverage TOR for specific tasks wh
 -----
 
 ## Todo
-- A feature to choose using TOR system wise or manually
-- Encrypt the SWAP and the live system
-- Some way to create a fully encrypted persistent storage (Usually not advised to do so, only if it's very very imporant).
+- [ ] A feature to choose using TOR system wise or manually
+- [ ] Encrypt the SWAP and the live system
+- [ ] Some way to create a fully encrypted persistent storage (Usually not advised to do so, only if it's very very imporant).
