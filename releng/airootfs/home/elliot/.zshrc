@@ -339,7 +339,7 @@ vimhelp ()    { vim -c "help $1" -c on -c "au! VimEnter *" }
 
 # Custom Global Aliases
 alias -g vig='proxychains -q -f /home/elliot/.config/proxy.conf'
-alias -g vigilante='sudo tor -f /home/elliot/.torrc'
+alias -g vigilante='sudo systemctl start tor'
 alias -g neofetch='neofetch --ascii /home/elliot/.config/neofetch/art.txt --ansii_colors 5'
 alias -g cvig='vig curl -s https://check.torproject.org | grep -i congratulations | head -n 1'
 
