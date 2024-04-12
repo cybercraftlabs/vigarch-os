@@ -341,6 +341,7 @@ vimhelp ()    { vim -c "help $1" -c on -c "au! VimEnter *" }
 alias -g vig='proxychains -q -f /home/elliot/.config/proxy.conf'
 alias -g vigilante='sudo tor -f /home/elliot/.torrc'
 alias -g neofetch='neofetch --ascii /home/elliot/.config/neofetch/art.txt --ansii_colors 5'
+alias -g cvig='vig curl -s https://check.torproject.org | grep -i congratulations | head -n 1'
 
 ## END OF FILE #################################################################
 
